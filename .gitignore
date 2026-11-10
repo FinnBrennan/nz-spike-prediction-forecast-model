@@ -219,7 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
- # Project-specific
- data/
- *.duckdb
- .DS_Store
+# Project-specific
+data/
+*.duckdb
+.DS_Store
