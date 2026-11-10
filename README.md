@@ -16,6 +16,8 @@ Planning/Early development. Not functional.
 
 ## Setup
 
+Requires git and uv.
+
 ```bash
 git clone https://github.com/FinnBrennan/nz-spike-prediction-forecast-model.git
 cd nz-spike-prediction-forecast-model
