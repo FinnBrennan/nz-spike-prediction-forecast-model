@@ -1,7 +1,7 @@
 [project]
 name = "nz-spike-prediction-forecast-model"
 version = "0.1.0"
-description = "Add your description here"
+description = "Forecasting model that uses hydro-lake storage levels to forecast wholesale-electricity-spot-prices spike risk in New Zealand."
 readme = "README.md"
 authors = [
     { name = "Finn Brennan", email = "127019042+FinnBrennan@users.noreply.github.com" }
@@ -14,8 +14,6 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
-[project.scripts]
-nz-spike-prediction-forecast-model = "nz_spike_prediction_forecast_model:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
